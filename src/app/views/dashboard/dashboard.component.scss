@@ -4,4 +4,44 @@
       font-size: x-small;
     }
   }
+  .example-form {
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  .submit {
+    display: flex;
+    justify-content: end;
+  }
+  .btm-margin {
+    margin-bottom: 15px;
+  }
+  .flip-row {
+    display: flex;
+    flex-direction: row-reverse; 
+  }
+  .td-body {
+    min-width: 50%;
+    max-width: 10pc !important
+  }
+  .text-center2 {
+    width: 1%; 
+  }
+  .justify-content {
+    display: block;
+  }
+  .wrap {
+    white-space: break-spaces;
+  }
+  .tbody {
+    max-height: 20pc;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .table-responsive {
+    max-height: 50pc;
+  }
 }
